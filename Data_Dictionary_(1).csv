@@ -1,0 +1,27 @@
+﻿variable,Description
+id,A unique assigned ID for the loan listing.
+loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+term,The number of payments on the loan. Values are in months and can be either 36 or 60.
+installment,The monthly payment owed by the borrower if the loan originates.
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+home_ownership,"The home ownership status provided by the borrower during registration_or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
+annual_inc,The self-reported annual income provided by the borrower during registration.
+verification_status,"Indicates if income was verified, not verified, or if the income source was verified. ""verified"" means the applicant's income was verified through documents such as paystubs. If the income source was verified, this mean that we electronically checked their income data through a third-party provider."
+issue_d,The month which the loan was funded
+loan_status,Current status of the loan
+purpose,A category provided by the borrower for the loan request.
+addr_state,The state provided by the borrower in the loan application
+dti,"A ratio (expressed as a percentage) calculated using the borrower's total monthly debt payments on the total debt obligations, excluding mortgage, divided by the borrower's self-reported monthly income."
+earliest_cr_line,The month the borrower's earliest reported credit line was opened
+fico_range_low,"At the time of loan application, the lower boundary range the borrower's FICO at loan origination belongs to."
+fico_range_high,"At the time of loan application, the upper boundary range the borrower's FICO at loan origination belongs to."
+acc_now_delinq,"At the time of loan application, the number of accounts on which the borrower is now delinquent."
+delinq_amnt,"At the time of loan application, the past-due amount owed for the accounts on which the borrower is now delinquent."
+delinq_2yrs,"At the time of loan application, the number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years"
+mths_since_last_delinq,"At the time of loan application, the number of months since the borrower's last delinquency."
+mths_since_last_record,"At the time of loan application, the number of months since the last public record."
+inq_last_6mths,"At the time of loan application, the number of credit inquiries in past 6 months (excluding auto and mortgage inquiries)"
+inq_last_12m,"At the time of loan application, number of credit inquiries in past 12 months"
+last_credit_pull_d,The most recent month a credit report was pulled for this loan
+last_fico_range_high,The upper boundary range the borrower's last FICO pulled belongs to.
+last_fico_range_low,The lower boundary range the borrower's last FICO pulled belongs to.
